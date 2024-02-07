@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./styles.css";
 
+
 function App() {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
@@ -11,8 +12,8 @@ function App() {
   const database = [
     
     {
-      username: "ADMIN",
-      password: "1234"
+      username: "venkatesh",
+      password: "g"
     },
   ];
 
@@ -77,7 +78,7 @@ function App() {
     <div className="app">
       <div className="login-form">
         <div className="title">venkatesh</div>
-        {isSubmitted ? <div>venkatesh simple login page using react</div> : renderForm}
+        {isSubmitted ? <div>Welcome venkatesh</div> : renderForm}
       </div>
     </div>
   );
